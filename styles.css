@@ -10,6 +10,7 @@ body {
     color: #333;
 }
 
+/* HERO */
 .hero {
     background: linear-gradient(120deg, #1e3c72, #2a5298);
     color: white;
@@ -17,20 +18,34 @@ body {
     padding: 80px 20px;
 }
 
+.hero-content {
+    max-width: 600px;
+    margin: auto;
+}
+
+.profile-img {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid white;
+    margin-bottom: 20px;
+}
+
 .hero h1 {
-    font-size: 3rem;
+    font-size: 2.8rem;
 }
 
 .hero h2 {
-    margin-top: 10px;
     font-weight: normal;
+    margin-top: 10px;
 }
 
 .hero button {
     margin-top: 25px;
     padding: 12px 30px;
     border: none;
-    background: #fff;
+    background: white;
     color: #1e3c72;
     font-size: 1rem;
     cursor: pointer;
@@ -41,6 +56,7 @@ body {
     background: #f1f1f1;
 }
 
+/* NAVBAR */
 .navbar {
     display: flex;
     justify-content: center;
@@ -58,6 +74,7 @@ body {
     text-decoration: underline;
 }
 
+/* SECTIONS */
 .section {
     padding: 60px 20px;
     max-width: 900px;
@@ -73,6 +90,7 @@ body {
     background: #f5f5f5;
 }
 
+/* SKILLS */
 .skills-list {
     list-style: none;
     display: grid;
@@ -83,20 +101,18 @@ body {
 .skills-list li {
     background: #1e3c72;
     color: white;
-    padding: 10px;
+    padding: 12px;
     text-align: center;
     border-radius: 5px;
 }
 
-.job {
-    margin-bottom: 30px;
-}
-
+/* EXPERIENCE */
 .job span {
     font-size: 0.9rem;
     color: #666;
 }
 
+/* FOOTER */
 footer {
     background: #222;
     color: white;
